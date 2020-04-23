@@ -89,12 +89,12 @@ static  String succ,pred;
 
             m = node.data;   
             System.out.println("the word "+data+ " isnot found");
-            System.out.println("Do You Mean  "+m);
+            System.out.println("do you want that   "+m);
             SuccandPred(root,m);
             System.out.println("Successor  "+succ);
             System.out.println("Predcessor  "+pred);
-            System.out.println("the word has been added");
-            System.out.println("--------------------------");
+            System.out.println("The word was added immediately");
+            System.out.println("###############################");
             add(data);     
         }                 
      return m;  
